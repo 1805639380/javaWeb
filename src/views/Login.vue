@@ -99,7 +99,6 @@ export default {
               } else {
                 this.$message.error('登录失败，用户名或者密码错误！');
               }
-              console.log(res);
             });
         } else {
           console.log("error submit!!");
